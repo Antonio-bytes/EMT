@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMT</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="../EMT/CSS/EMT.css" rel="stylesheet">
+
+    <style>
+          body{
+    background-color: #40b1b5;
+}
+/*Estilizar a barra de navegação */
+#header{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 18px;
+    box-shadow: 0px 10px 18px;
+    margin: 18px;
+    border-radius: 18px;
+}
+/*Estilizar os botões da barra de navegação */
+#nav{
+    position: relative;
+    margin: auto;
+}
+/*Estilizar a parte braca do site */
+#section{
+    background-color: hsl(0, 0%, 100%);
+    height: 1000px;
+    width: auto;
+    left: 0px;
+    right: 0px;
+    top: 60px;
+    box-shadow: 0px 10px 18px;
+    margin: 18px;
+    border-radius: 18px;
+}
+/*Estilizar a imagem do braço hidráulico */
+#braçomecanico{
+    max-width: 100%;
+    max-height: 100%;
+    top: 10%;
+    left: 10%;
+    border-radius: 18px;
+    box-shadow: #ffffff;
+    box-shadow: 15px 15px 16px;
+    margin-top: 40px;
+}
+/*Estilizar a imagem da logo */
+#img{
+  margin: 5px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+/*Estilizar a parte que fala sobre a venda */
+#aside{
+    background-color: #40b1b5;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    top: 236px;
+    left: 940px;
+    box-shadow: 15px 15px 16px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+/*Estelizar o texto*/
+#aside-text{
+    margin-top: 35px;
+    top: 30px;
+    left: 8%;
+    width:500px ;
+    height: 400px;
+}
+/*Estelizar o botão de compra*/
+#aside-button{
+    position: absolute;
+    margin-top: 140px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 70px;
+}
+/*Estelizar o botão de compra, mudando a cor ao clicar*/
+#aside-button:hover{
+    color: red;
+    background-color: darkred;
+    box-shadow: 5px 5px 5px;
+    border-color: red;
+}
+/*Estelizam os botões da barra de navegação, mudando a cor se etiver dentro da parte da pagina*/
+#btn1{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn2{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn3{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn4{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn5{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+/* Ajuste da footer */
+#footer{
+background-color: black;
+height: 300px;
+margin-top: 150px;
+display: flex;
+}
+#creditos{
+  color: white;
+  margin: auto;
+  font-size: 20px;
+}
+
+/*estilo da tabela*/
+table{
+    
+    width: 10%;
+    margin: 5% ;
+    border-collapse: separate;
+}
+      
+#img2 {
+    height: 200px;
+    width: 200px;
+}
+
+td {
+    font-weight: bold;
+    text-align: center;
+    font-size: larger;
+}
+
+tr{
+    color: #40b1b5;
+}
+#table{
+   margin: auto;
+   padding: 100px;
+}
+    
+    </style>
+    
+</head>
+
+<body>
+    <header id="header">
+        <a href="index.html"><img src="logo.jpg" alt="" width="66px" id="img" height="69px"></a>
+        <nav id="nav">
+            <a href="index1.html"><button type="button" class="btn btn-outline-dark">Sobre</button></a>
+            <a href="index2.html"><button type="button" class="btn btn-outline-dark">Materiais</button></a>
+            <a href="index3.html"><button type="button" class="btn btn-outline-dark">História</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-outline-dark">Como montar</button></a>
+            <a href="index5.html"><button type="button" class="btn btn-outline-dark">Créditos</button></a>
+        </nav>
+    </header>
+    <section id="section"> <br> <br>
+        <h1>&nbsp; &nbsp; &nbsp;Detalhes</h1>
+        <form name="fox" id="table" class="text-center">
+            <br>
+            <img src="" name="foto" width="200" height="200">
+            <br>
+            <label></label>
+            <br>
+            <!--textarea com informações do produti (completar no JS )-->
+            <div class="form-group">
+                <label>Produto</label>
+                <textarea class="form-control" readonly="true" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+            <br>
+            <label>Valor do produto:</label>
+            <input type="text" name="txtpreco" readonly="true" id="txtpreco" class="form-control">
+            <br>
+
+            <label>Quantidade</label>
+            <select id="quant" name="quany" onchange="calctotal()" class="form-control">
+                <option value="">ESCOLHA A QUANTIDADE</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <br>
+            <label>Valor total</label>
+            <input type="text" name="txttotal" id="total" readonly="true" class="form-control">
+            <br>
+
+            <input type="button" value="Comprar" onclick="verpag()" class= "btn btn-success">
+            <input type="button" value="Voltar" onclick="voltar()" class= "btn btn-secondary">
+            <br>
+        </form>
+        <footer id="footer">
+            <label id="creditos" class="text-center">
+                Projeto realizado em Novembro de 2024, <br>
+                Orientado pelo professor: Moacir Furniel Quessada - EMT <br>
+                Escola: Etec Lauro Gomes <br>
+                <a href="index5.html">Autores</a>
+            </label>
+        </footer>
+    
+        <script>
+
+            texto="";
+            toty=0;
+            var x=sessionStorage.getItem("prod");
+            fox.txtpreco.value=sessionStorage.getItem("precox");
+            if(x==1)
+            {
+                fox.foto.src="braçomecanico.jpg";
+                fox.exampleFormControlTextarea1.value="Braço hidráulico                                                  Peso:                                                             Tamanho:                                                         cor:";
+                
+            }
+    
+            texto= sessionStorage.getItem("textox");
+            toty=sessionStorage.getItem("totx");
+            toty=parseFloat(fox.txtpreco.value)+parseFloat(toty);
+    
+            texto=texto+ "\n "+ fox.exampleFormControlTextarea1.value + " R$"+fox.txtpreco.value;
+            sessionStorage.setItem("textox",texto);
+            sessionStorage.setItem("totx",toty); 
+
+            // Função para calcular o total
+            function calctotal() {
+                let txtpreco = parseFloat(document.getElementById('txtpreco').value);
+                let txtquant = parseInt(document.getElementById('quant').value);
+    
+                if (!isNaN(txtpreco) && !isNaN(txtquant) && txtquant > 0) {
+                    let txttotal = txtpreco * txtquant;
+                    document.getElementById('total').value = txttotal.toFixed(2);
+                } else {
+                    alert("Por favor, insira valores válidos.");
+                }
+            }
+    
+            function verpag() {
+                // Supondo que você tenha um campo de entrada para a quantidade
+                let total = document.getElementById('total').value; // O total deve ser calculado e armazenado
+                let quantidade = document.getElementById('quant').value; // O campo de quantidade deve existir
+
+                // Armazena o valor total e a quantidade no sessionStorage
+                sessionStorage.setItem("total2", total);
+                sessionStorage.setItem("quantidade", quantidade); // Armazena a quantidade
+                window.location.href = "pagar.html"; // Redireciona para a página de pagamento
+            }
+    
+            function voltar() {
+                window.location.href = "compra.html";
+            }
+        </script>
+    </section>
+    
+  
+</body>
+</html>

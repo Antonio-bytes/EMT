@@ -1,0 +1,3 @@
+1. Deixar a página totalmente responsiva
+2. Adicionar conteudo do site
+3. Estilizar a parte do JS

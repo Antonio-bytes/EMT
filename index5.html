@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMT</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="../EMT/CSS/EMT.css" rel="stylesheet">
+
+    <style>
+         body{
+    background-color: #40b1b5;
+}
+/*Estilizar a barra de navegação */
+#header{
+    display: flex;
+    background-color: hsl(0, 0%, 100%);
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 18px;
+    box-shadow: 0px 10px 18px;
+    margin: 18px;
+    border-radius: 18px;
+}
+/*Estilizar os botões da barra de navegação */
+#nav{
+    position: relative;
+    margin: auto;
+}
+/*Estilizar a parte braca do site */
+#section{
+    position: relative;
+    background-color: hsl(0, 0%, 100%);
+    height: 1100px;
+    width: auto;
+    left: 0px;
+    right: 0px;
+    top: 60px;
+    box-shadow: 0px 10px 18px;
+    margin: 18px;
+    border-radius: 18px;
+}
+/*Estilizar a imagem do braço hidráulico */
+#braçomecanico{
+    max-width: 100%;
+    max-height: 100%;
+    top: 10%;
+    left: 10%;
+    border-radius: 18px;
+    box-shadow: #ffffff;
+    box-shadow: 15px 15px 16px;
+    margin-top: 40px;
+}
+/*Estilizar a imagem da logo */
+#img{
+  margin: 5px;
+  margin-left: 50px;
+  border-radius: 10px;
+}
+/*Estilizar a parte que fala sobre a venda */
+#aside{
+    background-color: #40b1b5;
+    display: flex;
+    width: 500px;
+    height: 500px;
+    top: 236px;
+    left: 940px;
+    box-shadow: 15px 15px 16px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+}
+/*Estelizar o texto*/
+#aside-text{
+    margin-top: 35px;
+    top: 30px;
+    left: 8%;
+    width:500px ;
+    height: 400px;
+}
+/*Estelizar o botão de compra*/
+#aside-button{
+    position: absolute;
+    margin-top: 140px;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    height: 70px;
+}
+/*Estelizar o botão de compra, mudando a cor ao clicar*/
+#aside-button:hover{
+    color: red;
+    background-color: darkred;
+    box-shadow: 5px 5px 5px;
+    border-color: red;
+}
+/*Estelizam os botões da barra de navegação, mudando a cor se etiver dentro da parte da pagina*/
+#btn1{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn2{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn3{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn4{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#btn5{
+    background-color: black;
+    color: rgb(141, 141, 141);
+    box-shadow: 0px 10px 10px;
+}
+#section{
+    display: flex;
+    margin-top: 50px;
+}
+#text-div{
+    margin: auto;
+    margin-top: 40px;
+}
+#text{
+    font-size: 25px;
+}
+h1{
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#footer{
+background-color: black;
+height: 300px;
+margin-top: 150px;
+display: flex;
+}
+#creditos{
+  color: white;
+  margin: auto;
+  font-size: 20px;
+}
+    </style>
+    
+</head>
+
+<body>
+    <header id="header">
+        <a href="index.html"><img src="logo.jpg" alt="" width="66px" id="img" height="69px"></a>
+        <nav id="nav">
+            <a href="index1.html"><button type="button" class="btn btn-outline-dark" >Sobre</button></a>
+            <a href="index2.html"><button type="button" class="btn btn-outline-dark">Materiais</button></a>
+            <a href="index3.html"><button type="button" class="btn btn-outline-dark">História</button></a>
+            <a href="index4.html"><button type="button" class="btn btn-outline-dark">Como montar</button></a>
+            <a href="index5.html"><button type="button" class="btn btn-outline-dark"id="btn5">Créditos</button></a>
+        </nav>
+    </header>
+    <section id="section" class="text-center">
+        <div class="container" id="text-div">
+        <h1>Esse trabalho foi feito por: </h1> <br> <br>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Aluno</th>
+                    <th>Função</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td scope="row">Antonio Henrique de Andrade Gomes N°02</td>
+                    <td>Programador do HTML, CSS e estilização</td>
+                </tr>
+                <tr>
+                    <td scope="row">Gabriel Arimatea Teixeira N°13</td>
+                    <td>Programador da parte de Javascript</td>
+                </tr>
+                <tr>
+                    <td scope="row">Lucas Rigo Silva N°28</td>
+                    <td>Desenhos e partes práticas (medição e organização das peças)</td>
+                </tr>
+                <tr>
+                    <td scope="row">Paulo Haruo N° 33</td>
+                    <td>Criação do logo</td>
+                    <td>(Auxiliamento do projeto em geral)</td>
+                </tr>
+                <tr>
+                <td scope="row">Bruno Matsubara Nº10</td>
+                    <td>Montagem e organização da confecção</td>
+                    <td>(Auxiliamento do projeto em geral)</td>
+                </tr>
+                    <tr>
+                        <td scope="row">Pedro Henrique brugnera de Souza N°34</td>
+                            <td>Montagem</td>
+                            <td>(Auxiliamento do projeto em geral)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Pedro Henrique Marangoni Baptista N°35</td>
+                            <td>Auxilio em varias partes do projeto</td>
+                            <td>(Auxiliamento do projeto em geral)</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Lucas Cerqueira de Araújo N°27</td>
+                            <td>Construção de tabelas, e todo o planejamento do trabalho</td>
+                            
+                    </tr>
+            </body>
+        </table>
+    </div>
+    
+    </section>
+    <footer id="footer">
+        <label id="creditos" class="text-center">
+            Projeto realizado em Novembro de 2024, <br>
+            Orientado pelo professor: Moacir Furniel Quessada - EMT <br>
+            Escola: Etec Lauro Gomes <br>
+            <a href="index5.html">Autores</a>
+        </label>
+    </footer>
+</body>
+</html>
